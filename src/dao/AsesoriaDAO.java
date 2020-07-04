@@ -3,7 +3,8 @@ package dao;
 import java.util.List;
 
 public class AsesoriaDAO implements ICR {
-
+	private String hola;
+	
 	@Override
 	public boolean guardar(Object o) {
 		// TODO Auto-generated method stub
